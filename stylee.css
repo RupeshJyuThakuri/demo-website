@@ -1,0 +1,21 @@
+
+#author-name {
+  color: #5a7794;
+  text-align: center;
+  font-family: "Kalam", cursive;
+  font-size: clamp(35px, 5vw, 120px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main{
+    margin-top: 20px !important;
+}
+
+
+@media only screen and (max-width: 500px) {
+  
+    #main-content{
+        font-size: 14px !important;
+    }
+  }
